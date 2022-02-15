@@ -62,16 +62,17 @@ h6{
 .mini{
     transform: scale(0.9);
     margin-top: -5px !important;
-    margin-left: 0px !important; 
+    margin-left: -10px !important; 
 }
 .card-image{
     margin-top: -15px;
     width: 96%;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 .fa-twitter{
     color: #2a99fb;
     padding-left: 42%;
+    padding-top: 10px;
 }
 .image-botton{
     width: 96%;
