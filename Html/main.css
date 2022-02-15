@@ -1,0 +1,87 @@
+.nav-wrapper{
+    background-color: #0a7feb;
+    padding-left: 60px;
+}
+#nav-mobile{
+    padding-left: 20%;
+}
+#search{
+    margin-left: 55%;
+    color: white;
+}
+#language{
+   margin-left: 120px;
+}
+#myColor{
+    background-color: #0a7feb;
+}
+hr{
+    opacity: 30%;
+}
+#follow{
+    opacity: 70%;
+}
+.social-media{
+    background-color: #2a99fb;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding-top: 2.5px;
+}
+h2{
+    text-align: center;
+}
+.carousel{
+    margin-top: -100px;
+}
+h6{
+    color: #2d9afb;
+    font-weight: 700 !important;
+    display: inline;
+}
+.fa-circle-check{
+    color: #7fc4fd;
+}
+.link{
+    color: #52acfc;
+    margin-left: -10px !important;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.fa-circle{
+    transform: scale(2);
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #2a99fb;
+}
+.text{
+    color: #379ffb;
+    margin-left: -10px !important;
+}
+.mini{
+    transform: scale(0.9);
+    margin-top: -5px !important;
+    margin-left: 0px !important; 
+}
+.card-image{
+    margin-top: -15px;
+    width: 96%;
+    padding-left: 2%;
+}
+.fa-twitter{
+    color: #2a99fb;
+    padding-left: 42%;
+}
+.image-botton{
+    width: 96%;
+    padding-left: 2%;
+    padding-top: 5px;
+    color: #b3dcfe;
+}
+.time{
+    padding-left: 20px;
+}
+.fa-exclamation{
+    transform: rotate(180deg);
+}

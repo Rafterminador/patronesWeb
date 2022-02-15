@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Laboratorio 3</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f3b19fbde6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">WIREFRAME</a>
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#">Item 1</a></li>
+                <li class="active"><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><input placeholder="Search..." id="search"></input></li>
+                <li id="language">EN<i class="material-icons right">expand_more</i></li> 
+              </ul> 
+            </div>
+        </nav>
+        <h2>Carousel</h2>
+        <div class="carousel">
+          <a class="carousel-item" href="img/astronauta.jpg"><img src="img/astronauta.jpg"></a>
+          <a class="carousel-item" href="img/astronauta2.jpg"><img src="img/astronauta2.jpg"></a>
+          <a class="carousel-item" href="img/descarga.jpg"><img src="img/descarga.jpg"></a>
+        </div>
+        <div class="row">
+          <div class="col s12 m7">
+            <div class="card">
+              <div class="card-content">
+                <i class="fa-solid fa-circle"></i><h6>US Department of the Interior <i class="fa-solid fa-circle-check"></i></h6>
+                <i class="fa-brands fa-twitter"></i>
+                <p class="link mini">@interior</p>
+                <p class="text">Sunsets don't get much better than</p>
+                <p class="link">@Grand</p>
+              </div>
+              <div class="card-image">
+                <img src="img/planta.jpg">
+              </div>
+              <div class="image-botton">
+                <i class="fa-regular fa-heart"></i> 5378 <span class="time">11:09 PM-May 5, 2014</span>
+                <i class="fa-solid fa-exclamation"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="page-footer" id="myColor">
+            <div class="container">
+              <div class="row">
+                <div class="col l3 s12">
+                  <h5 class="white-text">WIREFRAME</h5>
+                </div>
+                <div class="col l4 s12">
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#">Item 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Item 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Item 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Item 4</a></li>
+                  </ul>
+                </div>
+                <div class="col l3 offset-l2 s12">
+                    <ul>
+                        <li>
+                          <span id="follow">Follow us</span>
+                          <i class="fa-brands fa-facebook-f social-media"></i>
+                          <i class="fa-brands fa-instagram social-media"></i>
+                          <i class="fa-brands fa-twitter social-media"></i>
+                        </li>
+                    </ul>
+                  </div>
+              </div>     
+              <hr>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2019, Wireframe.
+              </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelector('.carousel');
+        var instances = M.Carousel.init(elems);
+      });
+    </script>
+</html>
