@@ -30,9 +30,11 @@ hr{
 }
 h2{
     text-align: center;
+    color: #349efb;
 }
 .carousel{
     margin-top: -100px;
+    margin-bottom: -100px;
 }
 h6{
     color: #2d9afb;
@@ -100,4 +102,25 @@ h6{
     margin-left: 2px !important;
     width: 97%;
     border-color: #b3dcfe;
+}
+h4{
+    color: #349efb;
+    padding-left: 6px;
+}
+#quote{
+    background-color: #f1f9ff;
+    font-family: sans-serif;
+}
+#text-quote{
+    font-size: 17px;
+    color: #2a99fb;
+}
+#author{
+    color: #9dd2fd;
+    font-style: italic;
+    padding-top: 6px;
+}
+th{
+    color: #47a7fb;
+    font-weight:500;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>YouTube</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/f3b19fbde6.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper white">
+            <i id ="bars" class="fa-solid fa-bars change"></i>
+            <a href="#"><i class="fa-brands fa-youtube"></i><span id="logo">YouTube</span</a>
+            <span id="country">GT</span>
+            <input type="text" id="search" placeholder="Buscar">
+            <i class="fa-solid fa-magnifying-glass tooltipped" id="search-icon" data-position="bottom" data-tooltip="Buscar"></i>
+            <i class="fa-solid fa-microphone tooltipped" data-position="bottom" data-tooltip="Búsqueda por voz"></i>
+            <i class="fa-solid fa-video tooltipped" data-position="bottom" data-tooltip="Crear"></i>
+            <i class="fa-solid fa-grip tooltipped" data-position="bottom" data-tooltip="Aplicaciones de YouTube"></i> 
+            <i class="fa-solid fa-bell tooltipped" data-position="bottom" data-tooltip="Notificaciones"></i>
+            <i class="fa-solid fa-circle-user"></i> 
+        </div>
+    </nav>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.tooltipped');
+        var instances = M.Tooltip.init(elems);
+    });
+</script>
+</html>
