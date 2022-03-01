@@ -1,0 +1,17 @@
+{
+  "name": "1.-ej",
+  "version": "1.0.0",
+  "description": "tailwind",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "min": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify" 
+  },
+  "author": "fer",
+  "license": "ISC"
+}
